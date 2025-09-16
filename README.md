@@ -1,6 +1,6 @@
 # vikas-portfolio
 This is portfolio page of Vikas Meena.
-<!DOCTYPE html>
+ 
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -145,7 +145,7 @@ This is portfolio page of Vikas Meena.
     </section>
     
     <footer>
-      &#169 2025 My Portfolio
+      &#169; 2025 My Portfolio
     </footer>
 
   </body>
