@@ -6,6 +6,7 @@ This is portfolio page of Vikas Meena.
     <meta charset="UTF-8">
     <title>VikasPortfolio</title>
     <style>
+     
       body{
         font-family: Arial, sans-serif;
         background: #f9f9f9;
@@ -18,20 +19,21 @@ This is portfolio page of Vikas Meena.
         color:White;
         padding: 20px;
         text-align: center;
-      }
-      header h1 {
-      margin: 0;
-      font-size: 36px;
+      } 
+        header h1 {
+        margin: 0;
+        font-size: 36px;
         }
-        header p {
+       header p {
           margin: 10px 0 0;
           font-size: 18px;
         }
-          section{
+     
+       section {
         padding: 40px 20px;
         max-width: 600px;
         margin:auto;
-      }
+      }      
       section h2 {
       text-align: center;
       font-size: 26px;
