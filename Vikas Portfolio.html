@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>VikasPortfolio</title>
+    <style>
+      body{
+        font-family: Arial, sans-serif;
+        background: #f9f9f9;
+        margin: 0;
+        padding: 0; 
+        color: #333;    
+      }
+      header{
+        background: linear-gradient(135deg, #4a90e2, #8e44ad);        
+        color:White;
+        padding: 20px;
+        text-align: center;
+      }
+      header h1 {
+      margin: 0;
+      font-size: 36px;
+        }
+        header p {
+          margin: 10px 0 0;
+          font-size: 18px;
+        }
+          section{
+        padding: 40px 20px;
+        max-width: 600px;
+        margin:auto;
+      }
+      section h2 {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 20px;
+      color: #444;
+      position: relative;
+    }
+    section h2::after {
+      content: "";
+      display: block;
+      width: 80px;
+      height: 3px;
+      background: #3882d1;
+      margin:10px auto 0;
+      border-radius: 2px;
+    }
+      .projects{
+        background:rgb(238, 238, 238);
+       }
+      .project-card{
+        background: white;
+        padding: 20px;
+        margin: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgb(0, 0, 0, 0.3);
+        transition: transform 0.3s, box-shadow 0.3s;
+      }
+      .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+       }
+      .project-card h3 {
+        margin: 0 0 10px;
+        color: #4a90e2;
+       }
+      .contact{
+        text-align: center;
+        background: #eef3ff;
+        border-top: 2px solid #ddd;
+        border-bottom: 2px solid #ddd;
+      }
+      .contact-buttons{
+        display:flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+      }
+      .btn{
+          text-decoration: none;
+          padding: 10px 20px;
+          border-radius: 6px;
+          color:rgb(248, 246, 245);
+          font-weight: bold;
+          transition: transform 0.2s, box-shadow 0.2s;
+      }
+      .btn:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+        }
+        .gmail { background: #D14836; } 
+        .github { background: #333; }      
+        .linkedin { background: #0077B5; } 
+
+        footer {
+          background: #333;
+          color: white;
+          text-align: center;
+          padding: 15px;
+          margin-top: 20px;
+          font-size: 14px;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Hello, I am Vikas Meena </h1>
+       <p>Aspiring Web developer</p>
+    </header>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am learning web development. I like Javascript, React and small projects
+        like To-do apps and games. This is my very first portfolio page.
+      </p>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>To-do App</h3>
+        <p>An intermediate app developed with React</p>
+      </div>
+      <div class="project-card">
+        <h3>Snake Game</h3>
+        <p>A classic Snake game reimagined using HTML Canvas</p>
+      </div>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>This portfolio page you are looking at now!</p>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-buttons">
+        <a href="mailto:vikasbarlan1@gmail.com" class="btn gmail">Gmail</a>
+        <a href="https://github.com/Barlan1" target="_blank" class="btn github">GitHub</a>
+        <a href="https://linkedin.com/in/vikas-meena-4ab61460" target="_blank" class="btn linkedin">LinkedIn</a>
+      </div>
+    </section>
+    
+    <footer>
+      &#169 2025 My Portfolio
+    </footer>
+
+  </body>
+
+</html>
